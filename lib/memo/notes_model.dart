@@ -25,7 +25,7 @@ class NotesModel extends BaseModel {
   /// For display of the color chosen by the user.
   ///
   /// @param inColor The color.
-  void setColor(String inColor) {
+  void setColor(String? inColor) {
     print("## NotesModel.setColor(): inColor = $inColor");
 
     color = inColor;
